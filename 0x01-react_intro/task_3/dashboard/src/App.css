@@ -1,0 +1,58 @@
+:root {
+  --border-bottom: 4px solid red;
+  --padding: 1.2em;
+  --heading-font-size: 1.4rem;
+  --gen-font-size: 1.4rem;
+}
+
+.App {
+  height: 100%;
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.App * {
+  max-width: 100%; /* Elements won't exceed the container's width */
+  box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+.App-header {
+  font-size: var(--heading-font-size);
+  color: red;
+  display: flex;
+  align-items: center;
+  padding: var(--padding);
+  border-bottom: 4px solid red;
+}
+
+.App-header img {
+  width: 250px;
+  height: 250px;
+}
+
+.App-body {
+  font-size: var(--gen-font-size);
+  padding: var(--padding);
+  border-bottom: var(--border-bottom);
+  padding-bottom: 8em;
+}
+
+.App-footer {
+  font-size: var(--gen-font-size);
+  padding: var(--padding);
+  margin: 0;
+  text-align: center;
+  font-style: italic;
+}
+
+.input-label {
+  padding: 0.5em;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.input-field {
+  margin: 1em;
+  margin-bottom: 10px;
+}

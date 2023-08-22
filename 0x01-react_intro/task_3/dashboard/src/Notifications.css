@@ -1,0 +1,15 @@
+.Notifications {
+  margin: 0;
+  max-width: 100vw;
+  border: 1px dashed red;
+  padding: 5px;
+}
+
+li[data-priority="default"] {
+  color: blue;
+}
+
+/* Style urgent items */
+li[data-priority="urgent"] {
+  color: red;
+}
