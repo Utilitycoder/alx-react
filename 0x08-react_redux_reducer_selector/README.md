@@ -1,0 +1,14 @@
+# 0x08. React Redux reducer+selector
+
+The purpose of this project is to introduce me to the Redux architecture and how to use it within a React application. I used Redux reducer and selector to manage the data of the previous project.
+
+## Learning Objectives
+
+At the end of this project, you should be able to explain to anyone, without the help of Google:
+
+- The purpose of a reducer and the role it plays within your application
+- Why a reducer should stay as pure as possible
+- Why mutations should not happen within a reducer
+- The use of Immutable within the reducer
+- The use of Normalizr within the app
+- Selectors: what they are and when to use them
